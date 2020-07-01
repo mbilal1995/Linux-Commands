@@ -1,0 +1,28 @@
+$ - Normal user | # - Root user
+
+$ pwd                 PRINTS WORKING DIRECTORY 
+$ ls                  LIST CONTENT OF CURRENT DIRECTORY
+$ ls -l               SHOWS PERMISSIONS OF FILES IN THE DIRECTORY
+$ ls -a               SHOWS HIDDEN FILES                           
+$ cd                  USED TO NAVIGATE BETWEEN DIRECTORIES
+$ cd /                ROOT DIRECTORY
+$ cp                  COPY FILES                                    e.g. cp test testcopy - copies the file'test' and saves it as 'testcopy' in the same folder.
+$ rm                  DELETE A FILE                                 e.g. rm testcopy - removes or deletes the file 'testcopy'.
+$ mkdir               CREATES A NEW DIRECTORY
+$ rmdir               DELETES AN EMPTY DIRECTORY
+$ rm -r <foler-name>  DELETE NON-EMPTY DIRECTORY 
+$ clear               CLEAR SCREEN
+$ man <command>       MORE INFORMATION ON COMMAND                   e.g. man cp 
+$ q                   QUIT
+$ alias               SYSTEM ALIAS COMMANDS
+$ whoami              WHICH USERNAME YOU LOGGED IN AS
+$ passwd              CHANGE PASSWORD OF THE ROOT ACCOUNT 
+$ id                  CHECK YOUR ID 
+$ locate <filename>   LOCATES THE FILE IN THE DIRECTORY
+$ gedit <filename>    OPEN THE CONTENTS OF A FILE IN A TEXT EDITOR             
+$ cat <filename>      DISPLAY THE CONTENT ON THE TERMINAL
+$ less <filename>     DISPLAY CONTENT OF THE FILE 1 LINE AT A TIME
+$ echo $PATH          SHOWS ALL DIRECTORIES IN THE SYSTEM
+$ ps aux              SHOWS ALL THE RUNNING PROCESSES
+$ bg                  CHECKS RUNNING JOBS 
+$ jobs                CHECK RUNNING JOBS

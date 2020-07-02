@@ -26,3 +26,4 @@ $ echo $PATH          SHOWS ALL DIRECTORIES IN THE SYSTEM
 $ ps aux              SHOWS ALL THE RUNNING PROCESSES
 $ bg                  CHECKS RUNNING JOBS 
 $ jobs                CHECK RUNNING JOBS
+$ mv <filename>       MOVES OR RENAME A FILE

@@ -1,0 +1,1 @@
+$ grep "Mohammed Bilal" text_file.txt           ### This searches for "Mohammed Bilal" in the file 'text_file.txt' in our current direcory.  

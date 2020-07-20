@@ -1,1 +1,3 @@
-sudo apt-get abyss 
+sudo apt-get abyss        ## Ubuntu
+
+sudo brew install abyss   ## Linux

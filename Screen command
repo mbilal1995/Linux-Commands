@@ -1,0 +1,12 @@
+  The "screen" command is used to continue a processes after you log out:
+
+
+
+
+screen        ### This will take you to a 'virtual' window, which will continue running after you exit.
+                  To exit, press ctrl + A + D
+                  
+screen -r     ### To re-enter the screen you have left
+
+
+

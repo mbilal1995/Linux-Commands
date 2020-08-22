@@ -1,4 +1,4 @@
 screen -X -S <SCREEN NUMBER> quit 
 
 
-exit          # Type with-screen
+exit          # Type with-in screen

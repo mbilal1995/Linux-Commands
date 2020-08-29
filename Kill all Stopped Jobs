@@ -1,0 +1,1 @@
+kill -9 `jobs -ps`    # This will kill all 'killed jobs' + Free up RAM.

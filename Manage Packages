@@ -14,3 +14,4 @@ sudo apt-get upgrade                    ### Upgrades all packages in the system*
 sudo apt-get update                     ### Updates all packages in the system*
 
 sudo apt list --installed               ### Check all existing installed packages.
+

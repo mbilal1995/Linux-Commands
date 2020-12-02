@@ -1,0 +1,13 @@
+sudo apt-get install screen             ### This will install the package 'screen'
+sudo apt-get install autopsy            ### This will install the package 'autopsy'
+
+sudo apt-get --purge remove screen      ### Removes the package 'screen'
+sudo apt-get --purge remove autopsy     ### Removes the package 'autopsy'
+sudo apt autoremove screen              ### Automated removal
+sudo apt autoremove autopsy             ### Automated removal
+
+sudo apt-cache search sleuth*           ### This will search for all packages containing the phrase sleuth*
+sudo apt-cache policy fastqc            ### This will check if the package 'fastqc' is already installed. 
+
+sudo apt-get upgrade                    ### Upgrades all packages in the system*
+sudo apt-get update                     ### Updates all packages in the system*

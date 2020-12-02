@@ -1,3 +1,6 @@
+
+
+
 sudo apt-get install screen             ### This will install the package 'screen'
 sudo apt-get install autopsy            ### This will install the package 'autopsy'
 
@@ -11,3 +14,6 @@ sudo apt-cache policy fastqc            ### This will check if the package 'fast
 
 sudo apt-get upgrade                    ### Upgrades all packages in the system*
 sudo apt-get update                     ### Updates all packages in the system*
+
+
+

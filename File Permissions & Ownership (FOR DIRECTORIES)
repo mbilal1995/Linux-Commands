@@ -1,0 +1,15 @@
+*OWNERSHIP OF DIRECTORY + FILES INSIDE*
+
+sudo mkdir mydir                      # Creates a directory called 'mydir' containing 3 txt files.
+sudo nano file.txt
+sudo nano file2.txt
+sudo nano file3.txt
+
+ls -lh                                # drwxr-xr-x 1 root root 4.0K Dec  2 21:06 mydir   #r="readable" w="writable" x="executable" all to root user.
+
+sudo chown -R mbilal:mbilal mydir     # mbilal has ownership of the directory AND files inside (becuase of '-R' recursive flag)
+
+ls -lh                                # drwxr-xr-x 1 mbilal mbilal 4.0K Dec  2 22:19 mydir
+cd mydir
+ls -lh                                # -rw-r--r-- 1 mbilal mbilal 6 Dec  2 21:46 file.txt -rw-r--r-- 1 mbilal mbilal 8 Dec  2 22:15 file2.txt -rw-r--r-- 1 mbilal mbilal 8 Dec  2 22:19 file3.txt
+

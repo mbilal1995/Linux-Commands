@@ -1,0 +1,19 @@
+
+# Create a text file and change the ownership and permissions to mbilal/-rw- 
+
+
+**OWNERSHIP**
+
+sudo nano file.txt                ## Create a nano .txt file
+ls -lh                            # -rw-r--r-- 1 root root 15 Dec  2 17:49 file.txt
+
+sudo chown root:mbilal file.txt   ## This changes the ownership from 'root:root' to 'root:mbilal' 
+ls -lh                            # -rw-r--r-- 1 root mbilal 15 Dec  2 17:49 file.txt
+
+
+**PERMISSIONS**
+
+sudo chmod 664 file.txt             ## (6 = -rw-) (4 = -r--) Modify the read and write prmissions of file.txt       
+ls -lh                              # -rw-rw-r-- 1 root mbilal 15 Dec  2 17:49 file.txt
+
+

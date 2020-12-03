@@ -1,0 +1,2 @@
+mkdir mydir                 ### Makes a directory called 'mydir'
+mv mydir mySecondDir        ### This renames the directory 'mydir' to 'mySecondDir' ***WHILST KEEPING FILES INSIDE IN-TACT***.

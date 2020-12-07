@@ -6,5 +6,5 @@ grep -i "crisprcas9" file.txt     # This will find all instances of 'crisprcas9'
 
 grep -n -i "crisprcas9" file.txt  # This will find all instances of 'crisprcas9' in file.txt, give it's line number (-n) while ignoring case sensitivity (-i).
 
-
+grep -c "crisprcas9" file.txt     # This will count (-c) all instances of 'crisprcas9' in file.txt 
 

@@ -1,0 +1,21 @@
+
+
+find . -type f -iname "*.txt"       ### '.' is the current directory, '-type f' is for type: file, '-iname' is the file name irrespective of case sensitivity, '*' is the wildcard.  
+
+find . -type f -iname "*.py"        # Finds all files in current directory with the file extension '.py'
+
+find . -type f -iname "*file*"      # Finds all files in current directory with the name 'file'.
+
+find . -size -1M                    # Finds all files in current directory less than 1M in size.
+
+find -iname "*.py"                  # Finds all files in current directory with file extension of '.py' 
+
+find . -type f -not -iname "*.php"  # Finds all the files in current directory NOT '.php' files. 
+
+
+### We can use lots of parameters with find! 
+
+find . -maxdepth 2 -type f -iname "*.conf" -size +1k          #Finds all files in current directory, with a maxdepth of 2 level, all '.conf' files with a size of more than 1k.
+
+
+

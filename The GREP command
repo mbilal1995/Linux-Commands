@@ -1,0 +1,10 @@
+
+
+grep "bilal" file.txt             # This will find all instances of 'bilal' in 'file.txt'     ## ' "" ' this is called a search string. 
+
+grep -i "crisprcas9" file.txt     # This will find all instances of 'crisprcas9' in file.txt, ignoring case sensitivity.
+
+grep -n -i "crisprcas9" file.txt  # This will find all instances of 'crisprcas9' in file.txt, give it's line number (-n) while ignoring case sensitivity (-i).
+
+
+

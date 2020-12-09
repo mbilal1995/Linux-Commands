@@ -1,1 +1,1 @@
-ip add          ### This prints out your machine IP address.
+ip add          ### This prints out your machine IP address under 'inet'
